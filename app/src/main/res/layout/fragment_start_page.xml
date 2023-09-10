@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/pic2d"
+    tools:context=".ui.StartPageFragment">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Campus Volunteer Network"
+        android:textColor="#1f1b1b"
+        android:layout_marginTop="100dp"
+        android:layout_gravity="center"
+        android:textSize="30sp"/>
+
+    <RelativeLayout
+        android:id="@+id/collegeOpt"
+        android:layout_marginTop="70dp"
+        android:layout_width="200dp"
+        android:layout_height="150dp"
+        android:layout_gravity="center"
+        android:background="#fff"
+        android:alpha="0.8">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_marginTop="7dp"
+            android:layout_marginEnd="39dp"
+            android:layout_marginRight="39dp"
+            android:text="College"
+            android:textAllCaps="true"
+            android:textSize="25sp"
+            android:textStyle="bold" />
+
+        <ImageView
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_marginStart="55dp"
+            android:layout_marginTop="45dp"
+            android:layout_marginLeft="55dp"
+            android:layout_marginBottom="0dp"
+            android:src="@drawable/pic3d"
+            android:alpha="1"/>
+
+    </RelativeLayout>
+    <RelativeLayout
+        android:id="@+id/volunteerOpt"
+        android:layout_marginTop="134dp"
+        android:layout_width="200dp"
+        android:layout_height="150dp"
+        android:layout_gravity="center"
+        android:background="#fff"
+        android:alpha="0.8">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_marginTop="10dp"
+            android:layout_marginEnd="18dp"
+            android:layout_marginRight="18dp"
+            android:text="volunteer"
+            android:textAllCaps="true"
+            android:textSize="25sp"
+            android:textStyle="bold"
+            />
+
+        <ImageView
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_marginStart="55dp"
+            android:layout_marginTop="45dp"
+            android:layout_marginLeft="55dp"
+            android:layout_marginBottom="0dp"
+            android:src="@drawable/pic5"
+            android:alpha="1"/>
+    </RelativeLayout>
+
+
+</LinearLayout>
